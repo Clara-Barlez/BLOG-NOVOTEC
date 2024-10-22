@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Relatório de Vivência</title>
+  <meta name="title" content="Blog DevOps">
+  <meta name="description" content="Teacher Web DevOps">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" width="80" height="20" alt="Blogy logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover:underline" data-nav-link>Início</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="Postrecentes.html" class="navbar-link hover:underline" data-nav-link>Relatórios</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="galeria.html" class="navbar-link hover:underline" data-nav-link>Galeria</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Buscar</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Buscar" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Digite no minimo 3 letras...</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      
+
+      <!-- 
+        - #RECENT POST
+      -->
+      
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+          
+            <h2 class="h2 section-title">
+              Relatório de  <strong class="strong">Vivência</strong>
+            </h2>
+
+            <div class="top-author">
+              <ul class="avatar-list">
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/kamily.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+
+              </ul>
+
+              <span class="span">Kamily Silva</span>
+            </div>
+
+          </div>
+
+          <ul >
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" >
+                  <img src="./assets/images/recent-2.jfif"  loading="lazy"
+                    alt="Creating is a privilege but it’s also a gift" >
+
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">C.I.C.O.E.</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Tecnologias</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Guarda Civil Municipal</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    <p>
+                    No dia 17 de outubro de 2024, realizamos uma visita técnica à Central de Videomonitoramento da Guarda Civil 
+                    Municipal de Praia Grande - SP. Determinada como C.I.C.O.E. (Centro Integrado de Comando e Operações Especiais).
+                     O objetivo dessa visita foi entender melhor o funcionamento dos sistemas de segurança que operam no monitoramento
+                      da cidade, assim como as tecnologias utilizadas.</p><br>    
+                    
+                   <p>
+                    Ao integrarmos na sala, o Inspetor Chefe de Planejamento e Tecnologia do local nos apresentou o ambiente e seus 
+                    setores, após as principais tecnologias utilizadas e de quais formas elas são usadas dentro do sistema interno
+                     deles. E também, durante a visita foram esclarecidas dúvidas dos estudantes e do professor.
+                  </p><br>
+              
+                    
+                  <p>
+                    A Central é dividida em três setores principais: o setor de monitoramento, que analisa as imagens; o setor de 
+                    segurança, onde são recebidos os alertas suspeitos, que logo são coordenados por envio de operações; e o setor 
+                    de comunicação, responsável por manter o contato com as equipes externas. Todo esse processo é supervisionado por 
+                    um coordenador, que garante a eficácia das operações.
+                  </p><br>
+                    
+                  <p>
+                    Uma das primeiras tecnologias apresentadas foi o sistema de vídeo analítico, que analisa as imagens em tempo real 
+                    e ajuda na identificação de comportamentos suspeitos, permitindo uma resposta rápida das autoridades. 
+                    Também conhecemos o sistema de reconhecimento facial, que é integrado ao monitoramento, permitindo a identificação 
+                    automática de indivíduos procurados ou envolvidos em atividades criminosas.
+                  </p><br>
+
+                  <p>
+                    Outro recurso utilizado na central é o sistema de OCR (Leitura de Caracteres), que também é trabalhado com 
+                    inteligência artificial para reconhecer placas de veículos. Facilitando a identificação de automóveis em situação
+                     irregular, agilizando as operações de segurança, principalmente em casos de roubo ou furto de veículos.
+                  </p><br>
+
+                  <p>
+                    Também foi mencionada a integração da Central com sistemas nacionais e internacionais, como o Cortez, 
+                    um sistema de segurança de âmbito nacional, e o Sentry, que oferece apoio na análise de informações. 
+                    Um sistema adicional chamado BrifCam é utilizado para revisar rapidamente grandes volumes de gravações.
+                  </p><br>
+
+                  <p>
+                    O sistema trabalha com criptografia para enviar as imagens e dados coletados às autoridades judiciais.
+                     Esse envio pode ser feito pela nuvem ou através de DVDs criptografados, sendo necessário o uso de senhas 
+                     seguras para acessar os arquivos, que são enviados normalmente no formato MP4. A Central também utiliza um 
+                     sistema interno extremamente seguro, que detecta e bloqueia qualquer tentativa de invasão ou acesso externo
+                      não autorizado.
+                  </p><br>
+
+                  <p>
+                    Uma das ferramentas mais importantes no monitoramento de veículos e pessoas suspeitas de algo é o cerco
+                     eletrônico, que atua em tempo real, permitindo a identificação imediata acionando viaturas para acompanhamento.
+                  </p><br>
+                   
+                  <p>
+                    Outro ponto interessante é a resposta rápida a emergências. Quando o sistema detecta uma situação de risco, 
+                    um alerta é enviado e as viaturas da Guarda Civil e/ou militares são imediatamente acionadas. Em casos mais
+                     graves, o helicóptero Águia pode ser mobilizado para dar suporte à operação.
+                  </p><br>
+
+                  <p>
+                    Grande parte das câmeras utilizadas pela Central são do tipo dome, com um alcance de 600 metros de raio,
+                     o que permite uma cobertura ampla e eficiente das áreas monitoradas.
+                  </p><br>
+
+                  <p>
+                    No geral, a visita à Central de Videomonitoramento da Guarda Civil Municipal de Praia Grande - SP (C.I.C.O.E.),
+                     foi muito interessante e inovadora, pois conseguimos compreender uma parte de como funciona o monitoramento de
+                      segurança da cidade, e vimos que suas tecnologias são bem mais avançadas do que imaginamos.
+
+                  </p><br>
+                
+                </div>
+
+              </div>
+            </li>
+
+           
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECOMMENDED POST
+      -->
+      <section class="section recommended" aria-label="recommended post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">Recomendações</strong>
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="assets/images/recommend-1.jfif" width="300" height="360" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                      Cercos eletrônicos: o que são?
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-2.jpeg" width="300" height="360" loading="lazy"
+                    alt="Every day, in every city and town across the country " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                      Vídeo Analítico e suas especificações.
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-3.jpeg" width="300" height="360" loading="lazy"
+                    alt="I work best when my space is filled with inspiration " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                      Centro da C.I.C.O.E
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-4.jpeg" width="300" height="360" loading="lazy"
+                    alt="I have my own definition of minimalism " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                      Maneiras de organização da central
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-5.jfif" width="300" height="360" loading="lazy"
+                    alt="Change your look and your attitude " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                      Sentry e um pouco do que ele faz.
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="./assets/images/recommended-6.jpeg" width="300" height="360" loading="lazy"
+                    alt="The difference is quality " class="img-cover">
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                      Imagens de uma viatura virtual.
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+            “Incluindo nossa visão pessoal do que vemos em textos e imagens!”
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Redes Sociais</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Sobre</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contato</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Política de Privacidade</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Características</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Próximos Eventos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & Notícias</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Membro</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Conta</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Seja Membro</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Inscrição</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Autores</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Five Web 2024. Publicado por <a href="#" class="copyright-link hover:underline">Turma Novotec - Afonso Schmidt</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
